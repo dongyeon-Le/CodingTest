@@ -1,0 +1,7 @@
+def solution(x):
+    answer = True
+    hop=0
+    for i in str(x):
+        hop+=int(i)
+    answer = True if x%hop==0 else False
+    return answer
